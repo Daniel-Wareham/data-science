@@ -1,0 +1,55 @@
+Group,Column Index,Column Name,Data type,Mean/ Mode,Standard Deviation,Max,Description
+Status,0,Controversial Flag,Boolean,0.004,0.067,1,Boolean indicating whether the confirmation status of a planet has been questioned in the published literature
+Names,1,Planet Name,Identifyer,11 Com b,-,-,Planet name most commonly used in the literature
+,2,Host Name,Identifyer,KOI-351,-,-,Stellar name most commonly used in the literature
+,3,Planet Letter,Identifyer,b,-,-,"Letter assigned to the planetary component of a planetary system. The first planet discovered in a system is given the designation ""b"" (the parent star is considered to be ""a"") and later planets are given subsequent letters"
+System Composition,4,Number of Stars,Numerical,1.103,0.343,4,Number of stars in the planetary system
+,5,Number of Planets,Numerical,1.78,1.161,8,Number of confirmed planets in the planetary system
+,6,Circumbinary Flag,Boolean,0.007,0.086,1,Boolean indicating whether the planet orbits a binary system
+Planet Discovery,7,Discovery Method,Categorical,Transit,-,-,Method by which the planet was first identified
+,8,Discovery Year,Numerical,2016.198,4.528,2024,Year the planet was discovered
+,9,Discovery Locale,Categorical,Space,-,-,Location of observation of planet discovery (Ground or Space)
+Detections,10,Detections by Radial Velocity Variations,Boolean,0.369,0.482,1,Boolean indicating if the planet host star exhibits radial velocity variations due to the planet
+,11,Detected by Transits,Boolean,0.753,0.431,1,Boolean indicating if the planet transits its host star
+,12,Detected by Imaging,Boolean,0.011,0.102,1,Boolean indicating if the planet has been observed via imaging techniques
+Planet Parameters,13,Orbital Period (years),Numerical,2.329,68.045,4900.858,"Time the planet takes to make a complete orbit around the host star or system, in Earth years"
+,14,Orbit Semi-Major Axis (au),Numerical,2.723,32.559,1100,"The longest radius of an elliptic orbit, equivalent to half of the major axis of the ellipse"
+,15,Planet Radius (Earth Radius),Numerical,5.678,5.314,77.342,"Length of a line segment from the center of the planet to its surface, measured in units of radius of the Earth"
+,16,Planet Mass (Earth Mass),Numerical,429.691,2365.144,89700,"Best planet mass estimate available, measured in Earth masses"
+,17,Planet Density (g/cm**3),Numerical,3.652,5.269,93.7,Amount of mass per unit of volume of the planet
+,18,Eccentricity,Numerical,0.076,0.15,0.95,Amount by which the orbit of the planet deviates from a perfect circle
+,19,Equilibrium Temperature (K),Numerical,909.631,458.226,4050,The equilibrium temperature of the planet as modeled by a black body heated only by its host star
+,20,Inclination (deg),Numerical,86.893,10.507,176.092,Angle of the plane of the orbit relative to the plane perpendicular to the line-of-sight from Earth to the object
+,21,Transit Depth (%),Numerical,0.288,1.076,56.65,The size of the relative flux decrement caused by the orbiting body transiting in front of the star
+,22,Transit Duration (hrs),Numerical,3.862,2.617,53.6,The length of time from the moment the planet begins to cross the stellar limb to the moment the planet finishes crossing the stellar limb
+,23,Ratio of Semi-Major Axis to Stellar Radius,Numerical,0.039,0.119,7.28,The distance between the planet and the star at mid-transit divided by the stellar radius
+,24,Radial Velocity Amplitude (m/s),Numerical,86.739,160.161,1970,Half the peak-to-peak amplitude of variability in the stellar radial velocity (component of velocity in the line-of-sight from Earth to the object)
+Stellar Data,25,Spectral Type,Categorical,G0 V,-,-,Classification of the star based on their spectral characteristics following the Morgan-Keenan system
+,26,Stellar Effective Temperature (K),Numerical,5391.811,1447.826,57000,Temperature of the star as modeled by a black body emitting the same total amount of electromagnetic radiation
+,27,Stellar Radius (Solar Radius),Numerical,1.517,3.912,109.46,"Length of a line segment from the center of the star to its surface, measured in units of radius of the Sun"
+,28,Stellar Mass (Solar mass),Numerical,0.952,0.422,10.94,"Amount of matter contained in the star, measured in units of masses of the Sun"
+,29,Stellar Metallicity (Solar Metallicity),Numerical,1.119,0.456,3.631,"Measurement of the metal content of the photosphere of the star as compared to the hydrogen content, relative to the Sun's photosphere content ratio"
+,30,Stellar Luminosity (log10(Solar)),Numerical,-0.117,0.751,3.8,"Amount of energy emitted by a star per unit time, measured in units of solar luminosities"
+,31,Stellar Surface Gravity (log10(m/s^2)),Numerical,2.375,0.432,5.92,Gravitational acceleration experienced at the stellar surface
+,32,Stellar Age (Gyr),Numerical,4.377,3.08,14.9,"The age of the host star, measured in billions of years"
+,33,Stellar Density (g/cm**3),Numerical,3.094,6.12,79.807,Amount of mass per unit of volume of the star
+,34,Stellar Rotational Period (days),Numerical,36.719,56.841,746,"The time required for the planet host star to complete one rotation, assuming it is a solid body"
+,35,Systemic Radial Velocity (km/s),Numerical,-1.378,32.361,244.99,Velocity of the star in the direction of the line of sight from Earth to the object
+System Data,36,Total Proper Motion (mas/yr),Numerical,105.624,356.552,8644.905,"Angular change in position over time as seen from the center of mass of the Solar System, measured in units of milliarcseconds/year"
+,37,Distance (ly),Numerical,2275.267,3616.649,27723.26,Distance to the planetary system in units of lightyears
+,38,RA,Numerical,236.821,90.218,359.975,Right Ascension of the planetary system in decimal degrees
+,39,Dec,Numerical,19.605,35.827,85.737,Declination of the planetary system in decimal degrees
+Photometry (of the system as a whole),40,U,Numerical,16.301,1.656,23.306,"Brightness of the host star as measured using the Sloan Digital Sky Survey (SDSS) u band, in units of magnitudes"
+,41,B,Numerical,13.418,3.123,21.084,"Brightness of the host star as measured using the B (Johnson) band, in units of magnitudes"
+,42,G,Numerical,14.752,1.538,19.624,"Brightness of the host star as measured using the Sloan Digital Sky Survey (SDSS) g band, in units of magnitudes"
+,43,V,Numerical,12.634,3.099,44.61,"Brightness of the host star as measured using the V (Johnson) band, in units of magnitudes"
+,44,R,Numerical,14.038,1.474,17.996,"Brightness of the host star as measured using the Sloan Digital Sky Survey (SDSS) r band, in units of magnitudes"
+,45,I,Numerical,13.864,1.412,17.911,"Brightness of the host star as measured using the Sloan Digital Sky Survey (SDSS) i band, in units of magnitudes"
+,46,Z,Numerical,13.85,1.235,17.026,"Brightness of the host star as measured using the Sloan Digital Sky Survey (SDSS) z band, in units of magnitudes"
+,47,J,Numerical,10.986,2.974,25.34,"Brightness of the host star as measured using the J (2MASS) band, in units of magnitudes"
+,48,H,Numerical,10.615,3.021,32.34,"Brightness of the host star as measured using the H (2MASS) band, in units of magnitudes"
+,49,K,Numerical,10.501,3.031,33.11,"Brightness of the host star as measured using the K (2MASS) band in, units of magnitudes"
+,50,W1,Numerical,10.52,2.953,16.549,"Brightness of the host star as measured using the 3.4um (WISE) band, in units of magnitudes."
+,51,W2,Numerical,10.54,2.987,16.038,"Brightness of the host star as measured using the 4.6um (WISE) band, in units of magnitudes."
+,52,W3,Numerical,10.335,2.732,13.444,"Brightness of the host star as measured using the 12.um (WISE) band, in units of magnitudes"
+,53,W4,Numerical,8.335,1.619,10.081,"Brightness of the host star as measured using the 22.um (WISE) band, in units of magnitudes"
