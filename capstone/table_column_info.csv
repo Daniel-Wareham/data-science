@@ -1,8 +1,8 @@
 Group,Column Index,Column Name,Data type,Mean/ Mode,Standard Deviation,Max,Description
 Status,0,Controversial Flag,Boolean,0.004,0.067,1,Boolean indicating whether the confirmation status of a planet has been questioned in the published literature
-Names,1,Planet Name,Identifyer,11 Com b,-,-,Planet name most commonly used in the literature
-,2,Host Name,Identifyer,KOI-351,-,-,Stellar name most commonly used in the literature
-,3,Planet Letter,Identifyer,b,-,-,"Letter assigned to the planetary component of a planetary system. The first planet discovered in a system is given the designation ""b"" (the parent star is considered to be ""a"") and later planets are given subsequent letters"
+Names,1,Planet Name,Identifier,11 Com b,-,-,Planet name most commonly used in the literature
+,2,Host Name,Identifier,KOI-351,-,-,Stellar name most commonly used in the literature
+,3,Planet Letter,Identifier,b,-,-,"Letter assigned to the planetary component of a planetary system. The first planet discovered in a system is given the designation ""b"" (the parent star is considered to be ""a"") and later planets are given subsequent letters"
 System Composition,4,Number of Stars,Numerical,1.103,0.343,4,Number of stars in the planetary system
 ,5,Number of Planets,Numerical,1.78,1.161,8,Number of confirmed planets in the planetary system
 ,6,Circumbinary Flag,Boolean,0.007,0.086,1,Boolean indicating whether the planet orbits a binary system
